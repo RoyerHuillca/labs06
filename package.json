@@ -1,0 +1,13 @@
+{
+  "name": "api-cursos",
+  "version": "1.0.0",
+  "description": "Laboratorio 06 - API RESTful de Cursos Académicos con Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
