@@ -1,0 +1,4 @@
+{
+  "status": "fail",
+  "message": "Faltan campos obligatorios: codigo, creditos"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "data": {
+    "id": 6,
+    "nombre": "Bases de Datos",
+    "codigo": "BD-301",
+    "creditos": 4
+  }
+}
