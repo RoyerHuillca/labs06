@@ -5,6 +5,7 @@ const { notFound, errorHandler } = require('./middlewares/errorHandler');
 const cursoRoutes = require('./routes/cursoRoutes');
 
 const app = express();
+app.set('json spaces', 2);
 const PORT = process.env.PORT || 3000;
 
 // 1. Middlewares globales (el orden importa)
