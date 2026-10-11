@@ -1,0 +1,49 @@
+$kind: http-example
+request:
+  url: http://127.0.0.1:3000/api/cursos
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    content-type: application/json; charset=utf-8
+    content-length: "388"
+    etag: W/"184-VkxZ6tXu1nX7qHwTZlLoQxtwNbE"
+    date: Sun, 11 Oct 2026 04:00:46 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "status": "success",
+        "results": 4,
+        "data": [
+          {
+            "id": 1,
+            "nombre": "Introducción al Desarrollo Web",
+            "codigo": "IDW-101",
+            "creditos": 4
+          },
+          {
+            "id": 2,
+            "nombre": "Desarrollo de Software Orientado a Objetos",
+            "codigo": "POO-201",
+            "creditos": 4
+          },
+          {
+            "id": 3,
+            "nombre": "Ecología y Conservación Ambiental",
+            "codigo": "ECO-102",
+            "creditos": 3
+          },
+          {
+            "id": 4,
+            "nombre": "Taller de Narrativa Digital",
+            "codigo": "TND-103",
+            "creditos": 2
+          }
+        ]
+      }
+order: 1000
